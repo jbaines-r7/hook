@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<users>
+  <version>3</version>
+  <user name="admin">
+    <enabled>1</enabled>
+    <hash>628427e87df42adc7e75d2dd5c14b170</hash>
+    <domain>Firebox-DB</domain>
+    <role>Device Administrator</role>
+  </user>
+  <user name="status">
+    <enabled>1</enabled>
+    <hash>dddbcb37e837fea2d4c321ca8105ec48</hash>
+    <domain>Firebox-DB</domain>
+    <role>Device Monitor</role>
+  </user>
+  <user name="wg-support">
+    <enabled>0</enabled>
+    <hash>dddbcb37e837fea2d4c321ca8105ec48</hash>
+    <domain>Firebox-DB</domain>
+    <role>Device Monitor</role>
+  </user>
+</users>
