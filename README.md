@@ -2,7 +2,7 @@
 
 Hook exploits a parameter injection vulnerability in the WatchGuard SSH interface. The vulnerability allows a low privileged user to exfiltrate arbitrary system files to an attacker controlled FTP server. Fortunately, there is a builtin low privileged user named `status` that this script defaults to. It isn't unreasonable to assume that the `status` user will use a password of `readonly`, but it isn't required.
 
-Hook exfiltrates the user file `configd-hash.xml`. This file contains hashed user passwords. The hashes are simply unsalted MD4. `funoverip` [described](https://web.archive.org/web/20160522043540/http://funoverip.net/2013/09/cracking-watchguard-passwords/) using hashcat to crack the hashes in this file all the way back in 2013.
+Hook exfiltrates the user file `configd-hash.xml`. This file contains hashed user passwords. The hashes are simply unsalted MD4. [@funoverip](https://twitter.com/funoverip) [described](https://web.archive.org/web/20160522043540/http://funoverip.net/2013/09/cracking-watchguard-passwords/) using hashcat to crack the hashes in this file all the way back in 2013.
 
 ## Example Usage
 
